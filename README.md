@@ -8,5 +8,5 @@ It implements an extension trait for tokio's
 that adds a `split()` method to split the DelayQueue into `Insert` and `Read` parts,
 that can be used in separate tasks (or threads).
 
-See [this example](blob/master/examples/example.rs) to see how it's used.
+See [this example](examples/example.rs) to see how it's used.
 

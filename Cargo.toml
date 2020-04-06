@@ -1,0 +1,8 @@
+[package]
+name = "delay_queue_split"
+version = "0.1.0"
+authors = ["Miquel van Smoorenburg <mike@langeraar.net>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2", features = ["macros", "rt-core", "time", "stream", "sync"] }
